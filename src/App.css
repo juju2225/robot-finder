@@ -1,0 +1,106 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #f1f5f9;
+	color: #1e293b;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	margin: 30px 0;
+}
+
+nav input {
+	width: 300px;
+	padding: 12px 16px;
+	font-size: 16px;
+	border: 2px solid #ddd;
+	border-radius: 25px;
+	outline: none;
+	transition: 0.2s;
+}
+
+nav input:focus {
+	border-color: #555;
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+nav input::placeholder {
+	color: #999;
+}
+
+.robots-container {
+	display: grid;
+	grid-template-columns: repeat(3, 250px);
+	justify-content: center;
+	align-items: start;
+	gap: 25px;
+	padding: 40px 20px;
+}
+.robot-card {
+	width: 250px;
+	padding: 20px;
+	background: white;
+	border-radius: 15px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+	transition:
+		transform 0.2s ease,
+		box-shadow 0.2s ease;
+}
+
+.robot-card img {
+	width: 100%;
+}
+.robot-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
+}
+.robot-card h2 {
+	margin: 0 0 8px;
+	font-size: 20px;
+}
+.robot-card p {
+	margin: 7px 0;
+	font-size: 14px;
+	color: #64748b;
+}
+.robot-card button {
+	margin-top: 15px;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 8px;
+	background: #1e293b;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background 0.2s ease;
+}
+.robot-card button:hover {
+	background: #334155;
+}
+.robot-card h3 {
+	margin-top: 15px;
+	padding: 12px;
+	border-radius: 8px;
+	background: #f1f5f9;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.robot-address {
+	margin-top: 15px;
+	padding: 12px;
+	border-radius: 8px;
+	background: #f1f5f9;
+}
+
+.robot-address h3 {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+}

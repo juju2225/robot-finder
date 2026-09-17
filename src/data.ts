@@ -1,6 +1,7 @@
 const Robots = [
 	{
 		id: 1,
+		image: "https://robohash.org/1",
 		name: "Leanne Graham",
 		username: "Bret",
 		email: "Sincere@april.biz",
@@ -24,6 +25,7 @@ const Robots = [
 	},
 	{
 		id: 2,
+		image: "https://robohash.org/2",
 		name: "Ervin Howell",
 		username: "Antonette",
 		email: "Shanna@melissa.tv",
@@ -47,6 +49,7 @@ const Robots = [
 	},
 	{
 		id: 3,
+		image: "https://robohash.org/3",
 		name: "Clementine Bauch",
 		username: "Samantha",
 		email: "Nathan@yesenia.net",
@@ -70,6 +73,7 @@ const Robots = [
 	},
 	{
 		id: 4,
+		image: "https://robohash.org/4",
 		name: "Patricia Lebsack",
 		username: "Karianne",
 		email: "Julianne.OConner@kory.org",
@@ -93,6 +97,7 @@ const Robots = [
 	},
 	{
 		id: 5,
+		image: "https://robohash.org/5",
 		name: "Chelsey Dietrich",
 		username: "Kamren",
 		email: "Lucio_Hettinger@annie.ca",
@@ -116,6 +121,7 @@ const Robots = [
 	},
 	{
 		id: 6,
+		image: "https://robohash.org/6",
 		name: "Mrs. Dennis Schulist",
 		username: "Leopoldo_Corkery",
 		email: "Karley_Dach@jasper.info",
@@ -139,6 +145,7 @@ const Robots = [
 	},
 	{
 		id: 7,
+		image: "https://robohash.org/7",
 		name: "Kurtis Weissnat",
 		username: "Elwyn.Skiles",
 		email: "Telly.Hoeger@billy.biz",
@@ -162,6 +169,7 @@ const Robots = [
 	},
 	{
 		id: 8,
+		image: "https://robohash.org/8",
 		name: "Nicholas Runolfsdottir V",
 		username: "Maxime_Nienow",
 		email: "Sherwood@rosamond.me",
@@ -185,6 +193,7 @@ const Robots = [
 	},
 	{
 		id: 9,
+		image: "https://robohash.org/9",
 		name: "Glenna Reichert",
 		username: "Delphine",
 		email: "Chaim_McDermott@dana.io",
@@ -208,6 +217,7 @@ const Robots = [
 	},
 	{
 		id: 10,
+		image: "https://robohash.org/10",
 		name: "Clementina DuBuque",
 		username: "Moriah.Stanton",
 		email: "Rey.Padberg@karina.biz",
