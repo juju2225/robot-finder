@@ -21,7 +21,7 @@ function App() {
 				{Robots.filter((robot) => {
 					return search === "" || robot.name.includes(search);
 				}).map((robot) => {
-					return <Robotcard robot={robot} />;
+					return <Robotcard key={robot.id} robot={robot} />;
 				})}
 			</div>
 		</>
